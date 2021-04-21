@@ -124,10 +124,10 @@ const App = props => {
                 />
 
                 {/* Homepages */}
-                <Route
+{                <Route
                   path={process.env.PUBLIC_URL + "/home-fashion"}
                   component={HomeFashion}
-                />
+                />}
                 <Route
                   path={process.env.PUBLIC_URL + "/home-fashion-two"}
                   component={HomeFashionTwo}
